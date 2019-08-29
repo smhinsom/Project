@@ -103,28 +103,7 @@ a:active
     top: 20px;
 }
 
-.slider-container
-{
-    position: relative;
-    top: 200px;
-    width: 100%;
-    padding: 0 20px;
-}
 
-.slider
-{
-    
-}
-
-.slider-photo
-{
-    width: 100%;
-}
-
-.slider-photo img
-{
-    margin: 0 auto;
-}
 
 div {min-height: 100vh;
 width: 100vw;}
