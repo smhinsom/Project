@@ -1,0 +1,71 @@
+*
+{
+    color: black;
+border: 1px solid rgb(85, 204, 204);
+margin: 2px;
+padding: 2px;
+background-color: teal;
+}
+
+body {
+    color: black;
+    font-family: ariel;
+    margin: 0px;
+    text-align: center;
+}
+
+div{
+    min-height: 0.1vh;
+    width: 0.1vw;
+}
+
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 5em;
+}
+
+
+
+
+ .jak můžu pomoct{
+     color: rgb(5, 91, 112)
+ }
+ 
+ 
+ .pes {
+     color: rgb(93, 189, 202);
+ }
+
+ .kralik {
+     color: rgb(92, 217, 240)
+ }
+
+ li {
+     margin: 0 20px;
+     transition: 0.6s ease;
+ }
+
+ li:hover {
+     font-size: 1.2em;
+     transition: 0.6s ease;
+ }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 8vw;
+}
+
+img{
+    display: flex;
+    padding: 1px;
+    margin: 0 auto;
+    border-radius: 130px;
+    width: 10vw;
+    height: 4vh;
+}
+
