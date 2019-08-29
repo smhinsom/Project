@@ -12,9 +12,6 @@
         <script type="text/javascript" src="slick/slick.min.js"></script>
         
     </head>
-
-    
-    </style>
     <body>
         <div class="landing-page-bg">
             <h1 class="main-text">Save the planet</h1>
@@ -22,15 +19,17 @@
         </div>
         <div class="info">
             <h2 class="info-main-text">Hlavní problémy</h2>
-            <div class="slider-container">
-            <div class="slider"> 
-                <div><a href="priroda.html"><img src="img/bali.jpg" class="slider-photo"  > </a> </div> 
-                <div><a href="zvirata.html"><img src="img/zelva.jpg" class="slider-photo" ></a></div>
-                <div><a href="priroda.html"><img src="img/odpadky.jpg" class="slider-photo" > </a></div>
-                <div><a href="priroda.html"><img src="img/amazonka.jpg" class="slider-photo" ></a></div>
-                <div><a href="zvirata.html"><img src="img/panda.jpg" class="slider-photo" ></a></div>
-                <div><a href="priroda.html"><img src="img/oceany.jpg" class="slider-photo" ></a></div>
+            <div class="main-problems">
+            <div class="container">
+            <div class="slider">
+                <div><a href="priroda.html"><img src="img/bali.jpg" class="slider-photo"> </a> </div>
+                <div><a href="zvirata.html"><img src="img/zelva.jpg" class="slider-photo"></a></div>
+                <div><a href="priroda.html"><img src="img/odpadky.jpg" class="slider-photo"> </a></div>
+                <div><a href="priroda.html"><img src="img/amazonka.jpg" class="slider-photo"></a></div>
+                <div><a href="zvirata.html"><img src="img/panda.jpg" class="slider-photo"></a></div>
+                <div><a href="priroda.html"><img src="img/oceany.jpg" class="slider-photo"></a></div>
             </div>
+        </div>
         </div>
         </div>
         <script type="text/javascript">
@@ -41,7 +40,25 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
-            arrows: false
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings:
+                    {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 850,
+                    settings:
+                    {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
             });
           });
         </script>
