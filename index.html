@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 
@@ -22,10 +20,10 @@
 <body>
     <div class="landing-page-bg">
         <h1 class="main-text">Save the planet</h1>
-        <h2 class="main-subtext">Úvod</h2>
+        <h2 class="main-subtext">Pomozte nám zachránit svět</h2>
     </div>
     <div class="info">
-        <h2 class="info-main-text">Hlavní problémy</h2>
+        <h2 class="info-main-text">Klikněte na obrázky a dozvíte se víc</h2>
         <div class="slider-container">
             <div class="slider">
                 <div><a href="natural, příroda.html"><img src="img/bali.jpg" class="slider-photo"> </a> </div>
@@ -38,36 +36,41 @@
         </div>
     </div>
     <script type="text/javascript">
-$(document).ready(function(){
-$('.slider').slick({
-infinite: true,
-slidesToShow: 3,
-slidesToScroll: 1,
-autoplay: true,
-autoplaySpeed: 2000,
-arrows: false,
-responsive: [
-{
-breakpoint: 1200,
-settings:
-{
-slidesToShow: 2,
-slidesToScroll: 2
-}
-},
-{
-breakpoint: 850,
-settings:
-{
-slidesToShow: 1,
-slidesToScroll: 1
-}
-}
-]
-});
-});
-</script>
-
+        $(document).ready(function () {
+            $('.slider').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings:
+                        {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 850,
+                        settings:
+                        {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    
 </body>
+
+<footer>Vytvořeno pouze pro informační účely.
+
+    <p>©Míša, Kačka, Verča; 2019 </p>
+</footer>
 
 </html>
