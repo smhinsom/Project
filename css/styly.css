@@ -142,3 +142,9 @@ border-radius: 130px;}
 
 ul {list-style: disc;
 list-style-position: inside}
+
+*{color: black;
+border: 1px solid #1abc9c;
+margin: 2px;
+padding: 2px;
+background-color: #1abc9c;}
